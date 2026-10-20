@@ -10,6 +10,11 @@ Embedded Systems case study project.
 
 > **Course:** Embedded Systems
 
+## Demo video 
+
+https://github.com/Pranava-M/Real-Time-Audio-Spectrum-Analyzer/releases/download/v1.0/Spectrum_Analyzer_Project_Video_small.mp4
+
+
 ---
 
 ## Features
