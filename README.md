@@ -126,14 +126,14 @@ TX and RX are crossed: module TXD goes to PA10, module RXD goes to PA9.
 2. **Project → New µVision Project**. Choose device **STM32F401CCUx** (or **CEUx** to match your chip).
 3. In **Manage Run-Time Environment**, tick only **CMSIS → CORE** and **Device → Startup**. Do not add any HAL components.
 4. Add the source file(s):
-   - **Single file:** add `main.c` only.
+   - **Single file:** add `STM32F401_Spectrum_Analyzer_main .c` only.
    - **Multi-file:** add all `.c` files from `src/` and put `.\src` in the include path.
 5. **Options for Target (Alt+F7)**
    - Target: Xtal = **25.0 MHz**, Floating Point Hardware = **Single Precision**, ARM Compiler V6.
    - C/C++: optimisation **-O1** or **-O2**; leave "Define" empty (add `STM32F401xC` only if Keil asks for a device).
    - Debug: **ST-Link Debugger**, port SW. Flash Download: tick **Reset and Run**.
 6. **Build (F7)**, then **Download (F8)**.
-
+7. **If bar menu is required (8 16 and 32 bars) the use file 'main_with_bar_menu.c'**
 Build size is about 20 KB flash and 17 KB RAM.
 
 ## Usage
@@ -173,7 +173,7 @@ F=0440Hz L=063% B=00012357899875321000001233210000
 ```
 .
 ├── README.md
-├── main.c                  single-file version (paste into Keil)
+├── STM32F401_Spectrum_Analyzer_main.c or main_with_bar_menu.c(for menu of bars(8 16 32 bars))                 single-file version (paste into Keil)
 ├── src/                    multi-file version of the same firmware
 │   ├── board.h             pin map and constants
 │   ├── bsp.c / bsp.h       clock, SysTick, GPIO, LEDs, buttons, TIM2 + ADC1
