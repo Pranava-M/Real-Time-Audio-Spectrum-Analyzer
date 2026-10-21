@@ -233,4 +233,4 @@ checked against a PC test harness. Add your own measured results here, for examp
 
 ## License
 
-Add a license of your choice (for example MIT) as `LICENSE` in the repository root.
+Amrita Vishwa Vidyapeetham
