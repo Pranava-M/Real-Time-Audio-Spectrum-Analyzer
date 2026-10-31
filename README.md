@@ -14,7 +14,9 @@ Embedded Systems case study project.
 
 https://github.com/Pranava-M/Real-Time-Audio-Spectrum-Analyzer/releases/download/v1.0/Spectrum_Analyzer_Project_Video_small.mp4
 
-### Youtube Link : https://youtu.be/Rnlweoew6vM
+## Youtube 
+
+Link : https://youtu.be/Rnlweoew6vM
 ---
 
 ## Features
